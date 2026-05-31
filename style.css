@@ -64,7 +64,31 @@ body {
     z-index: 1;
     margin-bottom: 100px; /* Generous spacing */
     padding: 0 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 999px;
+    font-size: 0.9rem;
+    color: var(--text-primary);
+    margin-bottom: 24px;
+    font-weight: 500;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+.badge svg {
+    color: var(--text-secondary);
+}
+
 
 .gradient-heading {
     font-size: clamp(2.5rem, 5vw, 4rem);
