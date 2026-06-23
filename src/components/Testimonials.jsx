@@ -66,8 +66,33 @@ export default function Testimonials() {
 
   return (
     <section className="testimonial-section">
-      <div className="glow glow-blue"></div>
-      <div className="glow glow-amber"></div>
+      {/* Premium Dark Green Theme Background */}
+      <div className="bg-gradient-base"></div>
+      <div className="glow glow-top-left"></div>
+      <div className="glow glow-bottom-right"></div>
+      <div className="grid-overlay"></div>
+      
+      <div className="waves">
+        <svg viewBox="0 0 1440 320" preserveAspectRatio="none">
+          <path className="wave wave1" fill="none" stroke="rgba(13, 148, 136, 0.15)" strokeWidth="2" d="M0,160 C320,300 420,0 720,160 C1020,320 1120,50 1440,160"></path>
+          <path className="wave wave2" fill="none" stroke="rgba(6, 95, 70, 0.15)" strokeWidth="2" d="M0,200 C250,50 450,300 720,200 C990,100 1190,300 1440,200"></path>
+          <path className="wave wave3" fill="none" stroke="rgba(13, 148, 136, 0.1)" strokeWidth="1" d="M0,100 C300,250 500,50 720,150 C940,250 1140,100 1440,150"></path>
+        </svg>
+      </div>
+
+      <div className="floating-circles-bg">
+        <div className="circle-bg c1"></div>
+        <div className="circle-bg c2"></div>
+        <div className="circle-bg c3"></div>
+      </div>
+      
+      <div className="particles-bg">
+        <div className="particle-bg p1"></div>
+        <div className="particle-bg p2"></div>
+        <div className="particle-bg p3"></div>
+        <div className="particle-bg p4"></div>
+        <div className="particle-bg p5"></div>
+      </div>
 
       <div className="testimonial-header">
         <div className="badge">
