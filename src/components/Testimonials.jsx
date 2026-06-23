@@ -109,7 +109,10 @@ export default function Testimonials() {
           </svg>
           Trusted by 10,000+ Teams
         </div>
-        <h2 className="gradient-heading">What our users are saying</h2>
+        <h2 className="gradient-heading">
+          What Our Users<br />
+          Are <span className="highlight-blue">Saying</span>
+        </h2>
         <p className="subtitle">Real feedback from people who use our product every day.</p>
       </div>
 
@@ -118,6 +121,7 @@ export default function Testimonials() {
           <div className="scroller-inner" ref={scrollerInnerRef}>
             {testimonials.map((testimonial) => (
               <div className="card" key={testimonial.id}>
+                <div className="quote-icon quote-tl">“</div>
                 <div className="card-header">
                   <img src={testimonial.avatar} alt={`${testimonial.name} Avatar`} className="avatar" />
                   <div className="user-info">
@@ -129,8 +133,9 @@ export default function Testimonials() {
                   ★★★★★
                 </div>
                 <p className="testimonial-text">
-                  "{testimonial.text}"
+                  {testimonial.text}
                 </p>
+                <div className="quote-icon quote-br">”</div>
               </div>
             ))}
           </div>
