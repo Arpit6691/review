@@ -66,32 +66,38 @@ export default function Testimonials() {
 
   return (
     <section className="testimonial-section">
-      {/* Premium Dark Green Theme Background */}
-      <div className="bg-gradient-base"></div>
-      <div className="glow glow-top-left"></div>
-      <div className="glow glow-bottom-right"></div>
-      <div className="grid-overlay"></div>
+      {/* Exact Design Background Elements */}
+      <div className="bg-exact-base"></div>
       
-      <div className="waves">
-        <svg viewBox="0 0 1440 320" preserveAspectRatio="none">
-          <path className="wave wave1" fill="none" stroke="rgba(13, 148, 136, 0.15)" strokeWidth="2" d="M0,160 C320,300 420,0 720,160 C1020,320 1120,50 1440,160"></path>
-          <path className="wave wave2" fill="none" stroke="rgba(6, 95, 70, 0.15)" strokeWidth="2" d="M0,200 C250,50 450,300 720,200 C990,100 1190,300 1440,200"></path>
-          <path className="wave wave3" fill="none" stroke="rgba(13, 148, 136, 0.1)" strokeWidth="1" d="M0,100 C300,250 500,50 720,150 C940,250 1140,100 1440,150"></path>
-        </svg>
-      </div>
+      {/* Glows */}
+      <div className="exact-glow glow-tl"></div>
+      <div className="exact-glow glow-br"></div>
 
-      <div className="floating-circles-bg">
-        <div className="circle-bg c1"></div>
-        <div className="circle-bg c2"></div>
-        <div className="circle-bg c3"></div>
-      </div>
-      
-      <div className="particles-bg">
-        <div className="particle-bg p1"></div>
-        <div className="particle-bg p2"></div>
-        <div className="particle-bg p3"></div>
-        <div className="particle-bg p4"></div>
-        <div className="particle-bg p5"></div>
+      {/* Dotted Grids */}
+      <div className="exact-grid grid-tr"></div>
+      <div className="exact-grid grid-bl"></div>
+
+      {/* Hollow Circles */}
+      <div className="exact-circle circle-1"></div>
+      <div className="exact-circle circle-2"></div>
+      <div className="exact-circle circle-3"></div>
+      <div className="exact-circle circle-4"></div>
+
+      {/* Stars */}
+      <div className="exact-star star-1">✦</div>
+      <div className="exact-star star-2">✦</div>
+      <div className="exact-star star-3">✦</div>
+      <div className="exact-star star-4">✦</div>
+
+      {/* Waves */}
+      <div className="exact-waves">
+        <svg width="100%" height="100%" viewBox="0 0 1440 800" preserveAspectRatio="none">
+          <path d="M-100,500 C400,600 600,100 1540,200" fill="none" stroke="rgba(255, 255, 255, 0.04)" strokeWidth="1.5" />
+          <path d="M-100,540 C400,640 600,140 1540,240" fill="none" stroke="rgba(255, 255, 255, 0.04)" strokeWidth="1.5" />
+          <path d="M-100,580 C400,680 600,180 1540,280" fill="none" stroke="rgba(255, 255, 255, 0.04)" strokeWidth="1.5" />
+          <path d="M-100,620 C400,720 600,220 1540,320" fill="none" stroke="rgba(255, 255, 255, 0.04)" strokeWidth="1.5" />
+          <path d="M-100,660 C400,760 600,260 1540,360" fill="none" stroke="rgba(255, 255, 255, 0.04)" strokeWidth="1.5" />
+        </svg>
       </div>
 
       <div className="testimonial-header">
